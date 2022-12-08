@@ -9,3 +9,14 @@ C:\Users\User\source\repos\ProjectStudents\ProjectStudents.Entities_\bin\Debug\P
 C:\Users\User\source\repos\ProjectStudents\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.csproj.CopyComplete
 C:\Users\User\source\repos\ProjectStudents\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.dll
 C:\Users\User\source\repos\ProjectStudents\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.pdb
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\bin\Debug\ProjectStudents.Entities_.dll
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\bin\Debug\ProjectStudents.Entities_.pdb
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\bin\Debug\ProjectStudents.DAL_.dll
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\bin\Debug\ProjectStudents.Model_.dll
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\bin\Debug\ProjectStudents.DAL_.pdb
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\bin\Debug\ProjectStudents.Model_.pdb
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.csproj.CopyComplete
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.dll
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.Entities_\obj\Debug\ProjectStudents.Entities_.pdb

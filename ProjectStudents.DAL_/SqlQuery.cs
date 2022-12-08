@@ -35,5 +35,48 @@ namespace ProjectStudents.DAL_
                 }
             }
         }
+        public static void InputToDB(string SqlQuery,string FullName,int age,string HomeAddress,int StudentID)
+        {
+            
+            string connectionString = ConfigurationManager.AppSettings["connectionString"];
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string queryString = SqlQuery;
+
+                connection.Open();
+
+                // Adapter
+                using (SqlCommand command = new SqlCommand(queryString, connection))
+                {
+                    command.Parameters.AddWithValue("@FullName", FullName);
+                    command.Parameters.AddWithValue("@age", age);
+                    command.Parameters.AddWithValue("@HomeAddress", HomeAddress);
+                    command.Parameters.AddWithValue("@StudentID", StudentID);
+                    command.ExecuteNonQuery();
+                    
+                }
+            }
+        }
+
+        public static void DeleteFromSqlServer(string SqlQuery, int StudentID)
+        {
+
+            string connectionString = ConfigurationManager.AppSettings["connectionString"];
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string queryString = SqlQuery;
+
+                connection.Open();
+
+                // Adapter
+                using (SqlCommand command = new SqlCommand(queryString, connection))
+                {
+                    command.Parameters.AddWithValue("@StudentID", StudentID);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

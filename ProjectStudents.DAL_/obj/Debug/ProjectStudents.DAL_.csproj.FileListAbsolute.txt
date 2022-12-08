@@ -4,3 +4,9 @@ C:\Users\User\source\repos\ProjectStudents\ProjectStudents.DAL_\bin\Debug\Projec
 C:\Users\User\source\repos\ProjectStudents\ProjectStudents.DAL_\bin\Debug\ProjectStudents.DAL_.pdb
 C:\Users\User\source\repos\ProjectStudents\ProjectStudents.DAL_\obj\Debug\ProjectStudents.DAL_.dll
 C:\Users\User\source\repos\ProjectStudents\ProjectStudents.DAL_\obj\Debug\ProjectStudents.DAL_.pdb
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.DAL_\bin\Debug\ProjectStudents.DAL_.dll
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.DAL_\bin\Debug\ProjectStudents.DAL_.pdb
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.DAL_\obj\Debug\ProjectStudents.DAL_.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.DAL_\obj\Debug\ProjectStudents.DAL_.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.DAL_\obj\Debug\ProjectStudents.DAL_.dll
+C:\Users\User\Source\Repos\CSharp-three-layer-architecture.7.12.22\ProjectStudents.DAL_\obj\Debug\ProjectStudents.DAL_.pdb
