@@ -25,8 +25,16 @@ namespace ProjectStudents.UI
 
         private void start_Click(object sender, EventArgs e)
         {
+            // Clear the items from the list box
+            listBox1.Items.Clear();
+
             hashtable =  MainManager.Instance.students.SendSqlQueryToReadFromDB("select* from Students;");
             ret = (Hashtable)hashtable;
+
+            foreach(Student value in ret.Values)
+            {
+                listBox1.Items.Add("Full Name: "+ value.Full_name+ " " + "Id: "+ value.Id.ToString()  + " " + "Age: " + value.Age.ToString() + " " + "Home Address: " + value.Student_address);
+            }
             
         }
 
@@ -72,6 +80,23 @@ namespace ProjectStudents.UI
             else
             {
                 MessageBox.Show("StudentID Was Not Found In HashTable");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int rowsAffected = MainManager.Instance.students.updateAddressInDB("update students set HomeAddress = @HomeAddress where StudentID = @StudentID", t_address.Text, int.Parse(t_id.Text));
+            if(rowsAffected == 1)
+            {
+                MessageBox.Show(rowsAffected + "row is affected");
+            }
+            else if(rowsAffected > 1)
+            {
+                MessageBox.Show(rowsAffected + "rows are affected");
+            }
+            else
+            {
+                MessageBox.Show(rowsAffected + "rows are affected");
             }
         }
     }

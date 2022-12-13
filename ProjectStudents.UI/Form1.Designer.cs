@@ -40,6 +40,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.Retrieval = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // t_address
@@ -76,11 +78,11 @@
             // 
             // start
             // 
-            this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.start.Location = new System.Drawing.Point(4, 8);
             this.start.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(112, 52);
+            this.start.Size = new System.Drawing.Size(130, 52);
             this.start.TabIndex = 4;
             this.start.Text = "start";
             this.start.UseVisualStyleBackColor = true;
@@ -88,11 +90,11 @@
             // 
             // Input
             // 
-            this.Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Input.Location = new System.Drawing.Point(4, 69);
             this.Input.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Input.Name = "Input";
-            this.Input.Size = new System.Drawing.Size(112, 46);
+            this.Input.Size = new System.Drawing.Size(130, 46);
             this.Input.TabIndex = 5;
             this.Input.Text = "Input";
             this.Input.UseVisualStyleBackColor = true;
@@ -161,11 +163,33 @@
             this.Delete.UseVisualStyleBackColor = true;
             this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(281, 125);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(524, 284);
+            this.listBox1.TabIndex = 12;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button1.Location = new System.Drawing.Point(4, 247);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(222, 55);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Update Address";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.Delete);
             this.Controls.Add(this.Retrieval);
             this.Controls.Add(this.label4);
@@ -200,6 +224,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button Retrieval;
         private System.Windows.Forms.Button Delete;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

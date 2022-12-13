@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjectStudents.DAL_;
 using ProjectStudents.Model_;
 
 namespace ProjectStudents.Entities_
@@ -44,7 +45,7 @@ namespace ProjectStudents.Entities_
             retHash =  hashTbl;
             return retHash;
         }
-        //Function that helps connect between UI and DAL
+        //Function that helps connect between UI and DAL and return Hashtable
         public object SendSqlQueryToReadFromDB(string SqlQuery)
         {
             
@@ -99,6 +100,15 @@ namespace ProjectStudents.Entities_
             {
                 return 1;
             }
+        }
+
+        // send sql query to update row of student
+        public int updateAddressInDB(string SqlQuery,string HomeAddress,int id)
+        {
+            int rowsAffected = DAL_.SqlQuery.UpdateRowById(SqlQuery, HomeAddress, id);
+            return rowsAffected;
+
+
         }
     }
 }

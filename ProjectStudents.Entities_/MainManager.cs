@@ -17,7 +17,8 @@ namespace ProjectStudents.Entities_
         {
             get { return instance; }
         }
-
+        // Instance of Students
+        // Because of it I can access to its function
         public Students students = new Students();
 
     }
